@@ -1,0 +1,12 @@
+.env
+*.db
+*.db-*
+data/
+backups/
+*.pem
+*.key
+*.log
+#
+*_meta
+*.suo
+*.sln.ide
