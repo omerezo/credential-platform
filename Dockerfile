@@ -1,7 +1,4 @@
 FROM vaultwarden/server:latest
 
-COPY start.sh /start.sh
-RUN chmod +x /start.sh
-
-ENTRYPOINT ["/start.sh"]
-CMD []
+ENV ROCKET_PORT=80
+ENV ROCKET_ADDRESS=0.0.0.0
